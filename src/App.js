@@ -90,3 +90,19 @@ function App() {
 }
 
 export default App;
+
+import React, { useState } from "react";
+// import "./styles.css";
+
+function Login() {
+  return (
+    <div className="container">
+      <form>
+        <input type="text" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+      </form>
+    </div>
+  );
+}
+
+export default Login;
